@@ -1,7 +1,7 @@
 {
   "name": "peopleweave",
   "version": "0.1.0",
-  "homepage": "https://pranav9087.github.io/PeopleWeave",
+  "homepage": "http://pranavuiuc.github.io/PeopleWeave",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.5.3",
