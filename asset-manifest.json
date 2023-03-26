@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PeopleWeave/static/css/main.c2cab247.css",
-    "main.js": "/PeopleWeave/static/js/main.374b2b4a.js",
+    "main.js": "/PeopleWeave/static/js/main.c0ec5ad9.js",
     "index.html": "/PeopleWeave/index.html",
     "main.c2cab247.css.map": "/PeopleWeave/static/css/main.c2cab247.css.map",
-    "main.374b2b4a.js.map": "/PeopleWeave/static/js/main.374b2b4a.js.map"
+    "main.c0ec5ad9.js.map": "/PeopleWeave/static/js/main.c0ec5ad9.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.374b2b4a.js"
+    "static/js/main.c0ec5ad9.js"
   ]
 }
