@@ -10,8 +10,9 @@ function App() {
   return (
     <>
     <ChakraProvider>
-    <Menu></Menu>
+   
     <Router>
+    <Menu></Menu>
     <Routes>
         <Route exact path = "/" element={<Introduction/>}></Route>
         <Route exact path = "/data" element={<Data />}></Route>

@@ -1,26 +1,57 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from 'react-bootstrap';
-
+import { BrowserRouter as Router, Link } from "react-router-dom";
 function Menu() {
-    return(
-        <div>
-        <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand>My Website</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">Introduction</Nav.Link>
-            {/* <Link to = "/Data">Data</Link> */}
-            <Nav.Link href="/Data">Data</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-        </div>
-    )
+  return (
+    <nav
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "0.5rem 1rem",
+        backgroundColor: "#ffffff",
+        boxShadow: "0px 1px 5px 0px rgba(0, 0, 0, 0.2)",
+      }}
+    >
+      <Link to="/">
+        My Website
+      </Link>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <Link
+          to="/"
+          style={{
+            marginRight: "1rem",
+            textDecoration: "none",
+            color: "#333333",
+            fontWeight: "bold",
+          }}
+        >
+          Introduction
+        </Link>
+        <Link
+          to="/data"
+          style={{
+            marginRight: "1rem",
+            textDecoration: "none",
+            color: "#333333",
+            fontWeight: "bold",
+          }}
+        >
+          Data
+        </Link>
+        <Link
+          to="/contact"
+          style={{
+            marginRight: "1rem",
+            textDecoration: "none",
+            color: "#333333",
+            fontWeight: "bold",
+          }}
+        >
+          Contact
+        </Link>
+      </div>
+    </nav>
+  );
 }
 
 
