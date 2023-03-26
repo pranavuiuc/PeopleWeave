@@ -38,15 +38,7 @@ function Introduction() {
         alignItems="center"
         position="relative"
       >
-        <Image
-          src="/pranav.jpg"
-          alt="Introduction"
-          position="absolute"
-          top="10px"
-          left="800px"
-          borderRadius="full"
-          boxSize="250px"
-        />
+        
         <div>
           <Heading mb={4}>Introduction</Heading>
           <Text>
@@ -68,15 +60,7 @@ function Introduction() {
         alignItems="center"
         position="relative"
       >
-        <Image
-          src="/tt.jpg"
-          alt="Hobbies"
-          position="absolute"
-          top="10px"
-          right="820px"
-          borderRadius="full"
-          boxSize="250px"
-        />
+        
         <div>
           <Heading mb={4}>Fun facts about me</Heading>
           <Text>
@@ -102,15 +86,7 @@ function Introduction() {
         alignItems="center"
         position="relative"
       >
-        <Image
-          src="/code.jpg"
-          alt="Work Experience"
-          position="absolute"
-          top="40px"
-          left="820px"
-          borderRadius="full"
-          boxSize="250px"
-        />
+        
         <div>
           <Heading mb={4}>Why I want to join PeopleWeave</Heading>
           <Text>
