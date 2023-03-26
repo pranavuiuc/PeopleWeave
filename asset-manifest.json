@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PeopleWeave/static/css/main.c2cab247.css",
+    "main.js": "/PeopleWeave/static/js/main.de86ef80.js",
+    "index.html": "/PeopleWeave/index.html",
+    "main.c2cab247.css.map": "/PeopleWeave/static/css/main.c2cab247.css.map",
+    "main.de86ef80.js.map": "/PeopleWeave/static/js/main.de86ef80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.de86ef80.js"
+  ]
+}
